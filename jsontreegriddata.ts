@@ -200,6 +200,11 @@ export let sampleData = [
     }
 ];
 
+for(let i = 37; i<=1000; i++){
+    sampleData.push({taskID: i, taskName: 'Software Specification', startDate: new Date('02/10/2017'),
+    endDate: new Date('02/12/2017'), duration: 3, progress: 60, priority: 'Normal', approved: false, subtasks: []})
+}
+
 export let frozenSampleData =  [
     {
         taskID: 1,
